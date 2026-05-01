@@ -1,0 +1,53 @@
+============================================================
+PROJECT: ELECTIONGUIDE WEB APP
+============================================================
+
+1. OVERVIEW
+ElectionGuide is a fully interactive Single-Page Application (SPA) designed 
+to educate citizens on the election process. It includes a dynamic timeline, 
+a step-by-step voter guide, an AI-powered FAQ section, and a quiz.
+
+2. KEY FEATURES
+- Dynamic Timeline: 7 stages from Announcement to Results.
+- Voter Guide: 6 visual steps explaining how to register and vote.
+- Key Players: Card-based UI showing roles of Commissions, Candidates, and Voters.
+- AI Chatbot: Built-in interface to ask custom election questions.
+- Knowledge Quiz: 5-question multiple choice test with scoring.
+- Dark Mode: Full support for Navy Blue (light) and Slate (dark) themes.
+
+3. TECHNICAL STACK
+- Frontend: React (JSX)
+- Styling: Tailwind CSS
+- Icons: Lucide React
+- AI Backend: Anthropic API (Claude-3 Sonnet model)
+- Fonts: Playfair Display (Headings), Source Sans Pro (Body)
+
+4. SETUP INSTRUCTIONS (Local Development)
+   a. Create a new React project: 
+      npx create-react-app election-guide
+   b. Install dependencies:
+      npm install lucide-react tailwindcss
+   c. Setup Tailwind:
+      Initialize tailwind.config.js and add "./src/**/*.{js,jsx,ts,tsx}" to content.
+   d. Code Injection:
+      Copy the provided App.jsx code into your src/App.js file.
+   e. Run the app:
+      npm start
+
+5. DEPLOYMENT GUIDE
+   - Vercel: Connect your GitHub repository to Vercel.com for instant deployment.
+   - StackBlitz: Paste the code into a React project on StackBlitz.com for a shareable link.
+   - Replit: Use the "React" template and click Run.
+
+6. API CONFIGURATION
+   To use the live AI feature, replace "YOUR_KEY_HERE" in the App.jsx file 
+   with your actual Anthropic API Key. 
+
+7. DESIGN PALETTE
+   - Navy Blue: #1a2744 (Primary)
+   - Golden Amber: #f5a623 (Accent/Action)
+   - Slate: #0f172a (Dark Mode background)
+
+============================================================
+Educating citizens, one vote at a time.
+============================================================
