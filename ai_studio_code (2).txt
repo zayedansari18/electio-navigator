@@ -1,0 +1,48 @@
+============================================================
+PROJECT: ELECTIONGUIDE (PYTHON VERSION)
+============================================================
+
+1. INTRODUCTION:
+ElectionGuide is an interactive web application built with Python
+and Streamlit. It aims to educate first-time voters on the 
+complexities of the election process through visual aids and 
+AI interaction.
+
+2. FILES INCLUDED:
+- app.py: The main Python application code.
+- README.txt: This documentation file.
+
+3. PREREQUISITES:
+You must have Python installed. You will need the following 
+libraries:
+- streamlit (For the Web UI)
+- requests (For AI API calls)
+
+4. INSTALLATION:
+Run the following command in your terminal:
+pip install streamlit requests
+
+5. HOW TO RUN:
+Navigate to the folder containing app.py and run:
+streamlit run app.py
+
+6. DEPLOYMENT TO CLOUD:
+To put this on the internet for free:
+1. Create a GitHub repository and upload app.py.
+2. Create a file named 'requirements.txt' in the same repo 
+   and write 'streamlit' inside it.
+3. Go to https://share.streamlit.io and connect your GitHub.
+4. Deploy the 'app.py' file.
+
+7. AI CHATBOT LOGIC:
+The "Ask AI" section is set to 'Education Mode' by default. 
+To connect it to a live Claude API, you must add an 
+Anthropic API key to your environment variables and use 
+the 'anthropic' Python library.
+
+8. DESIGN SPECS:
+- Theme: Navy Blue (#1a2744) & Golden Amber (#f5a623).
+- Layout: Responsive Tab-based navigation.
+- Progress Tracking: Tracks user exploration across tabs.
+
+============================================================
